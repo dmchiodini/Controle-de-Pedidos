@@ -1,0 +1,62 @@
+body {
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f3f3f3;
+}
+
+header, section {
+    width: 800px;
+    background-color: #FFFFFF;
+    border: 1px solid #000000;
+    box-shadow: 2px 2px 3px rgba(0,0,0, 0.7);
+    padding: 20px;
+}
+
+header {
+    border-bottom: none;
+    display: flex;
+    justify-content: center;
+    background-color: #484848;
+    color: #FFFFFF;
+}
+
+table {
+    margin-top: 20px;
+    text-align: center;
+    border-collapse: collapse;
+    font-size: small;
+}
+
+table th {
+    background-color: #CCCCCC;
+}
+
+table td {
+    padding: 4px;
+}
+
+a {
+    text-decoration: none;
+    padding: 2px;
+    border:1px solid #000000;
+    border-radius: 3px;
+    box-shadow: 1px 1px 3px rgba(0,0,0, 0.7);
+    color: #FFFFFF;
+}
+.add {
+    padding: 7px;
+    background-color: #1f3f9f;
+    font-size: medium;
+}
+
+.edit {
+    background-color: darkgreen;
+    font-size: small;
+}
+
+.del {
+    background-color: crimson;
+    font-size: small;
+}
