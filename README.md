@@ -1,4 +1,4 @@
-<h1>CRUD em PHP desenvolvido dentro da estrutura MVC.<h1>
+<h1>CRUD em PHP, desenvolvido dentro da estrutura MVC.<h1>
 
 <h3>Tecnologias usadas:</h3>
 <ul>
