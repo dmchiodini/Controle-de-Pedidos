@@ -11,7 +11,7 @@
 <b>Exibição do relatório.</b>
 ![tela_principal](https://user-images.githubusercontent.com/41700939/71424837-f6638300-2674-11ea-99ec-7f6ee2acb769.jpg)
 
-<b>Tela para adicionar pedido.</b>
+<b>Tela para adicionar um novo pedido.</b>
 ![adicionar](https://user-images.githubusercontent.com/41700939/71424843-febbbe00-2674-11ea-86f6-aea1ac7482cc.jpg)
 
 <b>Tela de edição de pedido.</b>
