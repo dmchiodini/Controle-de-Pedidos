@@ -17,9 +17,26 @@ header, section {
 header {
     border-bottom: none;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     background-color: #484848;
     color: #FFFFFF;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: -30px;
+}
+
+nav ul a{
+    margin-left: -75px;
+    border: 1px solid #FFFFFF;
+    color: #484848;
+    background-color: #FFFFFF;
+    padding: 5px;
 }
 
 table {
@@ -60,3 +77,47 @@ a {
     background-color: crimson;
     font-size: small;
 }
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+fieldset {
+    width: 500px;
+}
+
+legend {
+    font-size: large;
+    font-weight: 600;
+}
+
+input {
+    width: 500px;
+    border: 1px solid #CCCCCC;
+    padding: 5px;
+}
+
+.botao {
+    width: 100px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 3px rgba(0,0,0, 0.7);
+}
+
+.valor, .preco {
+    border: 1px solid #CCCCCC;
+    padding: 2px;
+}
+
+.valor {
+    border-right: none;
+    width: 20px;
+    padding: 5px;
+}
+
+.preco {
+    border-left: none;
+    width: 472px;
+    padding: 5px;
+}
+
